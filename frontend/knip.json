@@ -1,0 +1,21 @@
+{
+  "includePatterns": ["src/**/*.{js,jsx,ts,tsx}"],
+  "excludePatterns": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/*.test.{js,jsx,ts,tsx}"
+  ],
+  "ignoreDependencies": [
+    "eslint-config-airbnb-typescript",
+    "dotenv",
+    "eslint-config-prettier",
+    "eslint-config-standard-with-typescript",
+    "eslint-plugin-import",
+    "eslint-plugin-jsx-a11y",
+    "eslint-plugin-n",
+    "eslint-plugin-prettier",
+    "eslint-plugin-promise",
+    "eslint-plugin-react-hooks",
+    "eslint-plugin-react-refresh"
+  ]
+}

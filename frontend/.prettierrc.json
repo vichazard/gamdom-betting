@@ -1,0 +1,28 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "importOrder": [
+    "@/(.*)",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]",
+    "^pages",
+    "^components",
+    "^hooks",
+    "^config",
+    "^constants",
+    "^utils",
+    "^enums",
+    "^interfaces",
+    "^services",
+    "^layouts"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
