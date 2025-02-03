@@ -1,0 +1,9 @@
+{
+  "dev": {
+    "driver": "postgres",
+    "host": "localhost",
+    "user": { "ENV": "POSTGRES_USER" },
+    "password": { "ENV": "POSTGRES_PASSWORD" },
+    "database": { "ENV": "POSTGRES_DB" }
+  }
+}
