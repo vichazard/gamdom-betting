@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "e8c6023a-148d-4512-b01a-e5e31dbf43c5",
+		"_postman_id": "b3cb7d1f-d485-4dfe-a7f6-e3cec0177e22",
 		"name": "Betting Dashboard",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "41769829"
+		"_exporter_id": "39401814"
 	},
 	"item": [
 		{
@@ -410,7 +410,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfaWQiOjEsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFljWVA1MmFySmZ4RnNtMEg5RW5FTmVaTHVUOGdxdHA3WU5wZmoyZWpEYUxxTEdIL0VibUMuIn0sImlhdCI6MTczODYwOTczMiwiZXhwIjoxNzM4NjEzMzMyfQ.i4_60xPGmn81TSTaf7flx5nEhfBa3E0AAqTNH7d-2F0",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfaWQiOjEsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJGlVeWovbjBKNDNDU2F4b2VxUUhOSGVKaTJReGlOV0VmaVBZLmtORTM5emF6TDlIVDV4ck5PIn0sImlhdCI6MTczOTgzODc3MywiZXhwIjoxNzM5ODQyMzczfQ.1UUOPTkV4bjIYGDDv66VPhfxpX7_PQxg1AHbAidCnQM",
 									"type": "string"
 								}
 							]
@@ -419,7 +419,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"event_name\": \"Soccer: A vs B\",\n    \"odds\": \"1.75, 2, 3\"\n}",
+							"raw": "{\n    \"event_name\": \"Soccer: A vs B\",\n    \"odds\": [\n        1.75, 2, 3\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -519,7 +519,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfaWQiOjEsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFljWVA1MmFySmZ4RnNtMEg5RW5FTmVaTHVUOGdxdHA3WU5wZmoyZWpEYUxxTEdIL0VibUMuIn0sImlhdCI6MTczODYwOTczMiwiZXhwIjoxNzM4NjEzMzMyfQ.i4_60xPGmn81TSTaf7flx5nEhfBa3E0AAqTNH7d-2F0",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfaWQiOjEsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJGlVeWovbjBKNDNDU2F4b2VxUUhOSGVKaTJReGlOV0VmaVBZLmtORTM5emF6TDlIVDV4ck5PIn0sImlhdCI6MTczOTgzODc3MywiZXhwIjoxNzM5ODQyMzczfQ.1UUOPTkV4bjIYGDDv66VPhfxpX7_PQxg1AHbAidCnQM",
 									"type": "string"
 								}
 							]
@@ -528,7 +528,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"event_name\": \"Soccer: A vs B\",\n    \"odds\": \"1.75, 1, 3\"\n}",
+							"raw": "{\n    \"event_name\": \"Soccer: A vs B\",\n    \"odds\": [0.9, 4, 0.2]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -551,7 +551,7 @@
 							"variable": [
 								{
 									"key": "id",
-									"value": "34"
+									"value": "2"
 								}
 							]
 						}
@@ -752,7 +752,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfaWQiOjEsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFljWVA1MmFySmZ4RnNtMEg5RW5FTmVaTHVUOGdxdHA3WU5wZmoyZWpEYUxxTEdIL0VibUMuIn0sImlhdCI6MTczODYwOTczMiwiZXhwIjoxNzM4NjEzMzMyfQ.i4_60xPGmn81TSTaf7flx5nEhfBa3E0AAqTNH7d-2F0",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfaWQiOjEsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJGlVeWovbjBKNDNDU2F4b2VxUUhOSGVKaTJReGlOV0VmaVBZLmtORTM5emF6TDlIVDV4ck5PIn0sImlhdCI6MTczOTg0MDMyNywiZXhwIjoxNzM5ODQzOTI3fQ.C_73_Otxso_JZc5NUvgKKeUjGC10gQrs98grTuS1gxA",
 									"type": "string"
 								}
 							]
@@ -761,7 +761,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"eventId\": 5,\n    \"odd\": 3,\n    \"value\": 10\n}",
+							"raw": "{\n    \"eventId\": 3,\n    \"result\": \"WIN\",\n    \"value\": 10\n}",
 							"options": {
 								"raw": {
 									"language": "json"
