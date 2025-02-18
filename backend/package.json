@@ -4,9 +4,10 @@
   "description": "Backend for betting dashboard",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node dist/server/src/app.js",
     "dev": "nodemon src/app.ts",
     "build": "tsc",
+    "db:migrate": "db-migrate up",
     "test": "jest"
   },
   "dependencies": {

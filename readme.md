@@ -77,13 +77,19 @@ Develop an online betting dashboard that displays a list of sports events, the c
    yarn install
    ```
 
-2. Start the server
+2. Run the db migration
+
+   ```bash
+   yarn db:migrate
+   ```
+
+3. Start the server
 
    ```bash
    yarn dev
    ```
 
-3. Test the server
+4. Test the server
 
    ```bash
    yarn test
